@@ -1,0 +1,255 @@
+{
+    "matlab":[
+        {
+            "nodeName":"Installing MATLAB",
+            "keywords":["install", "matlab"],
+            "response":"Install MATLAB",
+            "subNodes":[
+                {
+                    "nodeName":"Creating Account",
+                    "keywords": ["create"],
+                    "response": "Create a MATLAB account",
+                    "subNodes":[
+                        {
+                            "nodeName":"Going To Website",
+                            "keywords":["create account page","account website", "account url"],
+                            "response":"Visit the page: https://www.mathworks.com/accesslogin/createProfile.do",
+                            "subNodes":[]
+                        },
+                        {
+                            "nodeName":"Filling Initial Details",
+                            "keywords":["form fill"],
+                            "response":"Fill the fields on the account creation form",
+                            "subNodes":[
+                                {
+                                    "nodeName": "Filling Uni Email",
+                                    "keywords": ["what email address", "email on form", "which email address"],
+                                    "response": "As part of your initial details, you should fill in your university email. This will have a format ab00000@qmul.ac.uk.",
+                                    "subNodes":[]
+                                },
+                                {
+                                    "nodeName": "Selecting Status",
+                                    "keywords": ["what best describes you", "best describes you"],
+                                    "response": "It is crucial that you select student if you are a student for the 'Which best describes you', field",
+                                    "subNodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName":"Verifying Email",
+                            "keywords":["verify","email"],
+                            "response":"Verify your email address.",
+                            "subNodes":[
+                                {
+                                    "nodeName": "Going To EmailAccount",
+                                    "keywords": ["which email"],
+                                    "response": "Go to the outlook email account provided by the university, by typing the url 'outlook.office.com' in your web browser search bar.",
+                                    "subNodes": []
+                                },
+                                {
+                                    "nodeName": "Finding Email",
+                                    "keywords": ["find email"],
+                                    "response": "Find an email with the header 'Verify Email Address', should have been sent by 'service@account.mathworks.com'",
+                                    "subNodes": []
+                                },
+                                {
+                                    "nodeName": "Clicking On Verify",
+                                    "keywords": ["click verify"],
+                                    "response": "Click on a blue button named 'Verify Email', approximately half way down the email.",
+                                    "subNodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName":"Filling Final Details",
+                            "keywords":["form", "fill"],
+                            "response":"Fill in the rest of the details on the form that should be displayed.",
+                            "subNodes":[]
+                        }
+
+                    ]
+                },
+                {
+                    "nodeName":"Linking License",
+                    "keywords": ["link", "TAH", "license"],
+                    "response": "Link a TAH License",
+                    "subNodes":[
+                        {
+                            "nodeName": "Clicking Link License",
+                            "keywords":["link license"],
+                            "response": "Click on the link license button which should be present on your account homepage.",
+                            "subNodes":[]
+                        },
+                        {
+                            "nodeName":"Entering key",
+                            "keywords":["matlab key"],
+                            "response": "Enter the key 16339-74143-80000-94415-32670.",
+                            "subNodes":[]
+                        }
+                    ]
+                    
+                },
+                {
+                    "nodeName":"Downloading Installer",
+                    "keywords": ["download", "downloading installer"],
+                    "response": "Download the MATLAB installer",
+                    "subNodes":[
+                        {
+                            "nodeName": "Going To Website",
+                            "keywords":["downloading page", "downloading website", "download page", "download website", "installer page"],
+                            "response":"Go to the website https://mathworks.com/downloads",
+                            "subNodes":[]
+                        },
+                        {
+                            "nodeName": "Clicking On Download",
+                            "keywords":["click download"],
+                            "response":"Click on the blue download button on the website.",
+                            "subNodes":[]
+                        }
+
+                    ]
+                },
+                {
+                    "nodeName":"Running Installer",
+                    "keywords": ["running installer", "run"],
+                    "response": "Run the installer",
+                    "subNodes":[
+                        {
+                            "nodeName": "Find Installer",
+                            "keywords":["installer location", "find the installer"],
+                            "response":"Open the file explorer on your PC and go to the downloads directory.",
+                            "subNodes":[
+                                {
+                                    "nodeName": "Open File Explorer",
+                                    "keywords": ["file explorer"],
+                                    "response": "Find an icon with the image of a file on the bottom of your screen and click on it.",
+                                    "subNodes":[]
+                                },
+                                {
+                                    "nodeName": "Find downloads directory",
+                                    "keywords": ["downloads directory", "downloads folder"],
+                                    "response": "Click on a button named Downloads on the left hand side of the window that has popped up.",
+                                    "subNodes":[]
+                                },
+                                {
+                                    "nodeName": "Find installer in directory",
+                                    "keywords": ["matlab filename", "installer filename"],
+                                    "response": "Find a file called matlab_R2022b_win64.exe.",
+                                    "subNodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "nodeName": "Double Click Installer",
+                            "keywords":["double click"],
+                            "response":"Double click the file to run it.",
+                            "subNodes":[]
+                        }
+                    ]
+                },
+                {
+                    "nodeName":"Following Installer",
+                    "keywords": ["instructions"],
+                    "response": "Follow the instructions on the installer to complete the installation, after which MATLAB should be launched",
+                    "subNodes":[
+                        {
+                            "nodeName": "Login on the installer",
+                            "keywords":["installer login"],
+                            "response":"Login with your MATLAB account details.",
+                            "subNodes":[]
+                        },
+                        {
+                            "nodeName": "Select product",
+                            "keywords":["product select"],
+                            "response":"Select the MATLAB for students product.",
+                            "subNodes":[]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "wifi":[
+        {
+            "nodeName":"Connecting to wifi",
+            "keywords":["Connect", "wifi", "eduroam"],
+            "response":"Connect to wifi.",
+            "subNodes":[
+                {
+                    "nodeName":"Going To Website",
+                    "keywords":["url","website"],
+                    "response":"Visit the page: https://cat.eduroam.org",
+                    "subNodes":[]
+                    
+                },
+                {
+                    "nodeName":"Clicking on download button",
+                    "keywords":["download button"],
+                    "response":"Press the 'Click here to download your Eduroam installer' button ",
+                    "subNodes":[]
+                },
+                {
+                    "nodeName":"Selecting QMUL",
+                    "keywords":["organisation"],
+                    "response":"Select 'Queen Mary University of London' as your organisation on the pop window.",
+                    "subNodes":[]
+                },
+                {
+                    "nodeName":"Clicking on Eduroam button",
+                    "keywords":["eduroam button"],
+                    "response":"Click on the large blue 'eduroam' button located around halfway down the webpage.",
+                    "subNodes":[]
+                },
+                {
+                    "nodeName":"Running Installer",
+                    "keywords":["Run"],
+                    "response":"If prompted, click on 'Run'. Alternatively, you can save the installer and then run it later by double-clicking the saved file.",
+                    "subNodes":[]
+                },
+                {
+                    "nodeName":"Following Installer instructions",
+                    "keywords":["wired interface"],
+                    "response":"Follow the instructions on the installer. You will be given the option of configuring wired interfaces, for this click on 'No'.",
+                    "subNodes":[]
+                },
+                {
+                    "nodeName":"Entering email address",
+                    "keywords":["which email", "password"],
+                    "response":"When prompted, enter your QMUL email address (format: ab00000@qmul.ac.uk) and the corresponding password for your email.",
+                    "subNodes":[]
+                },
+                {
+                    "nodeName":"Clicking on finish",
+                    "keywords":[],
+                    "response":"Click on finish. You should now be connected to Wi-Fi if you are on campus.",
+                    "subNodes":[]
+                }
+
+            ]
+        }
+    ],
+    "password_reset":[
+        {
+            "nodeName":"Password reset",
+            "keywords":[],
+            "response":"To reset your password, please visit the password reset manager at https://www.its.qmul.ac.uk/support/self-help/self-service-password-reset/",
+            "subNodes":[]
+        }
+    ],
+    "password_requirement":[
+        {
+            "nodeName":"Password requirement",
+            "keywords":[],
+            "response":"According to QMUL policy, The password must be between 12 and 20 characters. The password must: Contain UPPERCASE characters (A through Z), Contain lowercase characters (a through z), Numerals (0 through 9).",
+            "subNodes":[]
+        }
+    ],
+    "email_issue":[
+        {
+            "nodeName":"Email Issues",
+            "keywords":[],
+            "response":"To login to your email use your QMUL username and password. (Format: ab00000@qmul.ac.uk)",
+            "subNodes":[]
+        }
+    ]
+}
